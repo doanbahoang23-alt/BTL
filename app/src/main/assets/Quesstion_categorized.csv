@@ -1,0 +1,303 @@
+﻿Câu hỏi;Đáp án A;Đáp án B;Đáp án C;Đáp án D;Đáp án đúng;Chapter
+Kỹ nghệ phần mềm là gì?;Là quá trình viết mã nguồn đơn giản.;Là ứng dụng cách tiếp cận có hệ thống, kỷ luật, định lượng để phát triển phần mềm.;Là chỉ việc thiết kế giao diện người dùng.;Là quá trình sửa lỗi phần mềm sau khi phát hành.;B;1
+Đâu là pha đầu tiên trong quy trình phát triển phần mềm?;Thiết kế;Kiểm thử;Khảo sát yêu cầu;Triển khai;C;1
+Mục tiêu chính của UML là gì?;Viết mã nguồn;Trực quan hóa, đặc tả, xây dựng và làm tài liệu cho các hệ thống phần mềm.;Kiểm tra hiệu năng hệ thống.;Quản lý nhân sự trong dự án.;B;1
+Biểu đồ nào trong UML dùng để mô tả các tương tác giữa các đối tượng?;Biểu đồ lớp;Biểu đồ trạng thái;Biểu đồ tuần tự;Biểu đồ triển khai;C;1
+Trong UML, biểu đồ lớp (Class Diagram) thể hiện điều gì?;Trình tự thời gian;Cấu trúc tĩnh của hệ thống;Hành vi động;Quy trình xử lý dữ liệu;B;1
+Loại biểu đồ nào thể hiện luồng sự kiện của một quá trình?;Biểu đồ tuần tự;Biểu đồ hoạt động;Biểu đồ lớp;Biểu đồ thành phần;B;1
+Phát biểu nào đúng về yêu cầu phi chức năng?;Liên quan đến tính bảo mật, hiệu năng, độ tin cậy.;Là các chức năng chính của phần mềm.;Là yêu cầu do khách hàng đưa ra trực tiếp.;Không quan trọng trong thiết kế.;A;1
+Vai trò của người phân tích hệ thống là gì?;Viết mã nguồn.;Thiết kế giao diện.;Hiểu yêu cầu của người dùng và chuyển đổi thành tài liệu kỹ thuật.;Sửa lỗi phần mềm.;C;1
+Mô hình thác nước (Waterfall) phù hợp với loại dự án nào?;Dự án yêu cầu thay đổi liên tục.;Dự án có yêu cầu rõ ràng, cố định từ đầu.;Dự án phát triển nhanh (Agile).;Dự án quy mô nhỏ, thử nghiệm.;B;1
+Trong UML, ký hiệu hình thoi rỗng thể hiện mối quan hệ gì?;Kế thừa;Phụ thuộc;Tập hợp (Aggregation);Thành phần (Composition);C;1
+Biểu đồ Use Case dùng để làm gì?;Mô tả chi tiết mã nguồn.;Xác định phạm vi hệ thống và các tác nhân tương tác.;Thiết kế cơ sở dữ liệu.;Thể hiện kiến trúc phần cứng.;B;1
+Tại sao cần thiết kế hệ thống trước khi lập trình?;Để tiết kiệm thời gian viết mã.;Để đảm bảo kiến trúc ổn định và dễ bảo trì.;Để tăng số lượng mã nguồn.;Để không cần phải kiểm thử.;B;1
+Ưu điểm của phương pháp phát triển Agile là gì?;Tài liệu hóa chi tiết ngay từ đầu.;Khả năng thích nghi nhanh với thay đổi.;Không cần họp nhóm.;Chỉ dành cho các dự án lớn.;B;1
+"Mối quan hệ ""Generalization"" trong UML tương đương với khái niệm nào?";Kế thừa (Inheritance);Đa hình;Đóng gói;Trừu tượng hóa;A;1
+Mô hình xoắn ốc (Spiral Model) nhấn mạnh vào yếu tố nào?;Tốc độ viết mã.;Quản lý rủi ro.;Giao diện người dùng.;Độ phức tạp của thuật toán.;B;1
+Trong UML, biểu đồ nào dùng để mô tả vòng đời của một đối tượng?;Biểu đồ trạng thái (Statechart);Biểu đồ lớp;Biểu đồ Use Case;Biểu đồ thành phần;A;1
+Kỹ nghệ phần mềm khác với lập trình ở điểm nào?;Lập trình chỉ là một phần nhỏ trong kỹ nghệ phần mềm.;Kỹ nghệ phần mềm không cần lập trình.;Lập trình khó hơn.;Kỹ nghệ phần mềm không dùng máy tính.;A;1
+Đâu là một thành phần của thiết kế hệ thống?;Thiết kế cơ sở dữ liệu và giao diện.;Viết tài liệu quảng cáo.;Thương thảo giá hợp đồng.;Tuyển dụng lập trình viên.;A;1
+Mục đích của việc kiểm thử phần mềm là gì?;Viết thêm tính năng.;Tìm lỗi và đảm bảo phần mềm đúng yêu cầu.;Thay đổi yêu cầu khách hàng.;Đóng gói phần mềm.;B;1
+"Thế nào là ""đóng gói"" (Encapsulation) trong hướng đối tượng?";Che giấu dữ liệu và chi tiết thực hiện bên trong đối tượng.;Cho phép nhiều lớp kế thừa.;Là quá trình sao chép đối tượng.;Là viết mã nguồn nhanh.;A;1
+Biểu đồ thành phần (Component Diagram) thể hiện điều gì?;Cấu trúc vật lý của hệ thống.;Hành vi người dùng.;Các bước thực hiện chức năng.;Thời gian thực thi.;A;1
+Yêu cầu người dùng (User Requirements) thường được viết dưới dạng nào?;Ngôn ngữ tự nhiên.;Mã giả.;Ngôn ngữ máy.;Mã nhị phân.;A;1
+Thiết kế hệ thống mức cao (High-level design) tập trung vào?;Kiến trúc tổng thể của hệ thống.;Chi tiết từng hàm.;Màu sắc của nút bấm.;Tên biến trong code.;A;1
+Trong UML, ký hiệu nào dùng cho tác nhân (Actor)?;Hình chữ nhật;Hình tròn;Hình người;Hình thoi;C;1
+Điểm yếu chính của mô hình Waterfall là gì?;Khó quay lại pha trước nếu phát hiện lỗi.;Dễ quản lý.;Chi phí thấp.;Phù hợp dự án lớn.;A;1
+Biểu đồ nào trong UML cho biết phần mềm chạy trên phần cứng nào?;Biểu đồ triển khai (Deployment);Biểu đồ tuần tự;Biểu đồ lớp;Biểu đồ Use Case;A;1
+Trừu tượng hóa (Abstraction) trong thiết kế có ý nghĩa là?;Tập trung vào các chi tiết không quan trọng.;Bỏ qua các chi tiết phức tạp, chỉ giữ lại tính chất quan trọng.;Xóa bỏ chức năng của hệ thống.;Viết code khó hiểu.;B;1
+"Mối quan hệ ""Association"" giữa hai lớp thể hiện?";Sự phụ thuộc vật lý.;Sự kết nối về mặt ngữ nghĩa.;Sự kế thừa.;Sự gộp nhóm.;B;1
+Tài liệu SRS là viết tắt của?;Software Requirement Specification.;System Research System.;Simple Requirement Software.;Standard Requirement System.;A;1
+"Nguyên tắc ""Đơn trách nhiệm"" (Single Responsibility) nghĩa là gì?";Một lớp chỉ nên có một lý do để thay đổi.;Một lớp phải làm mọi việc.;Chỉ dùng cho ngôn ngữ Java.;Không cần thiết kế.;A;1
+Khi nào thì sử dụng biểu đồ tuần tự?;Khi cần thể hiện sự tương tác theo thời gian.;Khi cần vẽ cơ sở dữ liệu.;Khi cần mô tả cấu trúc vật lý.;Khi cần thiết kế giao diện.;A;1
+Biểu đồ gói (Package Diagram) dùng để?;Tổ chức các thành phần hệ thống vào các nhóm logic.;Mô tả luồng dữ liệu.;Viết mã nguồn.;Thiết kế màn hình.;A;1
+Tại sao cần thực hiện phân tích hệ thống?;Để hiểu rõ bài toán cần giải quyết.;Để bắt đầu viết code ngay.;Để bán phần mềm.;Để thiết kế logo.;A;1
+Đa hình (Polymorphism) cho phép?;Một phương thức có thể có nhiều cách thực hiện.;Viết mã nhanh hơn.;Tăng dung lượng file.;Giảm số lượng lỗi.;A;1
+Biểu đồ trạng thái cần có những gì?;Trạng thái bắt đầu và kết thúc.;Chỉ có các hành động.;Chỉ có tên lớp.;Chỉ có các biến.;A;1
+Quy trình phát triển phần mềm gồm bao nhiêu pha cơ bản?;2;3;4-5;10;C;1
+Tính kế thừa giúp?;Tái sử dụng mã nguồn và cấu trúc.;Làm phần mềm chạy chậm hơn.;Tăng dung lượng phần mềm.;Xóa lỗi phần mềm.;A;1
+Thiết kế chi tiết (Detail Design) tập trung vào?;Logic của từng module, thuật toán.;Tổng thể toàn bộ hệ thống.;Yêu cầu khách hàng.;Ngân sách dự án.;A;1
+"Mối quan hệ ""Composition"" thể hiện?";Sự phụ thuộc chặt chẽ, nếu lớp cha hủy thì con hủy theo.;Sự liên kết lỏng lẻo.;Kế thừa.;Không có quan hệ gì.;A;1
+Để giảm độ phức tạp của hệ thống, ta dùng phương pháp?;Chia để trị (Divide and Conquer).;Viết thêm code.;Đóng gói.;Sửa lỗi.;A;1
+Độ gắn kết (Cohesion) cao trong module nghĩa là?;Các thành phần trong module liên quan chặt chẽ đến chức năng duy nhất.;Module có quá nhiều chức năng.;Module không có chức năng nào.;Module phụ thuộc vào các module khác.;A;1
+Độ ghép nối (Coupling) thấp giữa các module là?;Tốt vì giảm sự phụ thuộc giữa các module.;Xấu vì khó bảo trì.;Không quan trọng.;Không thể thực hiện được.;A;1
+Mô hình Scrum thuộc loại quy trình nào?;Waterfall;Agile;V-Model;Spiral;B;1
+Biểu đồ hoạt động sử dụng để?;Mô tả luồng công việc hoặc logic xử lý.;Mô tả cấu trúc cơ sở dữ liệu.;Mô tả phần cứng.;Thiết kế giao diện.;A;1
+Trong UML, biểu đồ lớp không bao gồm?;Thuộc tính;Phương thức;Tên lớp;Thời gian chạy;D;1
+Lợi ích của việc sử dụng mô hình hóa (UML) là gì?;Dễ dàng giao tiếp giữa các bên.;Thay thế hoàn toàn lập trình.;Giảm dung lượng file.;Tăng tốc phần cứng.;A;1
+Giai đoạn bảo trì phần mềm bao gồm?;Sửa lỗi và cập nhật tính năng sau khi bàn giao.;Chỉ viết code.;Thiết kế cơ sở dữ liệu.;Chỉ kiểm thử.;A;1
+Công cụ nào sau đây thường dùng để vẽ UML?;Enterprise Architect, Visual Paradigm.;Notepad.;Excel.;Paint.;A;1
+Mô hình nào kiểm thử và phát triển đi song hành?;V-Model;Waterfall;Spiral;Agile;A;1
+Mục đích của thiết kế giao diện là?;Tối ưu hóa trải nghiệm người dùng.;Chỉ làm cho đẹp.;Viết mã backend.;Quản lý cơ sở dữ liệu.;A;1
+SDLC là viết tắt của cụm từ nào?;Software Development Life Cycle;System Design Life Cycle;Software Design Life Cycle;System Development Life Cycle;A;1
+Mô hình nào được coi là mô hình truyền thống và tuyến tính nhất?;Waterfall;Spiral;Agile;Prototyping;A;2
+Trong mô hình Waterfall, khi nào quá trình kiểm thử bắt đầu?;Sau khi kết thúc pha thiết kế;Sau khi hoàn thành pha lập trình;Song song với pha phân tích;Trước khi khảo sát yêu cầu;B;2
+Ưu điểm lớn nhất của mô hình Waterfall là gì?;Dễ quản lý và lập kế hoạch;Tính linh hoạt cao;Tương tác khách hàng liên tục;Dễ xử lý thay đổi yêu cầu;A;2
+Mô hình nào tập trung mạnh vào quản lý rủi ro?;Spiral (Xoắn ốc);Waterfall;V-Model;RAD;A;2
+Giai đoạn đầu tiên của mô hình Waterfall là gì?;Phân tích yêu cầu;Thiết kế hệ thống;Kiểm thử;Lập trình;A;2
+Mô hình V-Model thường được gọi là gì?;Mô hình kiểm chứng và xác nhận;Mô hình tuyến tính;Mô hình hướng đối tượng;Mô hình tiến hóa;A;2
+Mô hình nào cho phép xây dựng phiên bản phần mềm sơ khai để lấy ý kiến?;Prototyping (Mô hình tạo mẫu);Waterfall;V-Model;Waterfall cải tiến;A;2
+Điểm khác biệt chính giữa Agile và Waterfall là gì?;Tính lặp và thích ứng;Tài liệu hóa;Chi phí nhân sự;Phần cứng sử dụng;A;2
+Trong mô hình Agile, một khoảng thời gian làm việc ngắn hạn gọi là gì?;Sprint;Phase;Cycle;Stage;A;2
+Mô hình nào sau đây KHÔNG phải là một mô hình phát triển phần mềm?;Mô hình quản lý nhân sự;Mô hình xoắn ốc;Mô hình thác nước;Mô hình chữ V;A;2
+Mô hình Incremental (Tăng trưởng) phát triển phần mềm dựa trên?;Xây dựng từng phần tính năng cho đến khi hoàn thiện;Xây dựng toàn bộ hệ thống cùng lúc;Xây dựng phần cứng trước;Xây dựng kiểm thử trước;A;2
+Mô hình RAD (Rapid Application Development) nhấn mạnh vào yếu tố nào?;Tốc độ phát triển;Độ bảo mật;Độ phức tạp;Khả năng chịu lỗi;A;2
+Ai là người trực tiếp tham gia đánh giá trong mô hình Prototyping?;Khách hàng;Giám đốc tài chính;Nhà đầu tư;Đối thủ cạnh tranh;A;2
+Mô hình nào phù hợp nhất cho dự án có yêu cầu không rõ ràng?;Prototyping hoặc Agile;Waterfall;V-Model;Mô hình tuyến tính;A;2
+Nhược điểm của mô hình thác nước là gì?;Không chấp nhận sự thay đổi yêu cầu;Chi phí quá cao;Không cần tài liệu;Khó quản lý;A;2
+Mô hình xoắn ốc kết hợp giữa mô hình nào?;Prototyping và Waterfall;Agile và V-Model;RAD và V-Model;Waterfall và V-Model;A;2
+Sản phẩm đầu ra của pha phân tích yêu cầu trong SDLC là gì?;Tài liệu SRS;Mã nguồn;Giao diện người dùng;Kế hoạch bảo trì;A;2
+Khảo sát yêu cầu trong SDLC giúp trả lời câu hỏi nào?;Hệ thống cần làm gì?;Dùng ngôn ngữ nào?;Máy tính nào chạy?;Ai là khách hàng?;A;2
+Trong Agile, các yêu cầu được quản lý dưới dạng nào?;User Stories;Tài liệu thiết kế;Bản vẽ kỹ thuật;Biên bản cuộc họp;A;2
+Mô hình nào thực hiện kiểm thử ngay từ giai đoạn thiết kế?;V-Model;Waterfall;Spiral;Agile;A;2
+Ưu điểm của mô hình tiến hóa (Evolutionary) là gì?;Sản phẩm được cải tiến liên tục;Cố định yêu cầu từ đầu;Không cần test;Dễ dự đoán thời gian;A;2
+Phát triển phần mềm trong SDLC là giai đoạn?;Viết mã nguồn (Coding);Vẽ biểu đồ;Thu thập yêu cầu;Kiểm thử;A;2
+Mô hình Scrum là một nhánh của phương pháp nào?;Agile;Waterfall;V-Model;Tuyến tính;A;2
+Tại sao cần có pha bảo trì trong SDLC?;Để sửa lỗi phát sinh và nâng cấp;Để viết thêm tài liệu;Để tăng giá bán;Để thay đổi ngôn ngữ;A;2
+"Khái niệm ""Đóng băng yêu cầu"" thường thấy ở mô hình nào?";Waterfall;Agile;Spiral;RAD;A;2
+Trong mô hình xoắn ốc, mỗi vòng lặp đại diện cho?;Một pha phát triển mới;Một lần kiểm thử;Một lần họp;Một lỗi cần sửa;A;2
+Mô hình RAD yêu cầu điều gì từ phía khách hàng?;Tham gia tích cực vào quá trình phát triển;Không cần can thiệp;Chỉ nhận hàng;Chỉ thanh toán;A;2
+Phương pháp nào sau đây giúp phát triển phần mềm nhanh nhất?;RAD;Waterfall;V-Model;Mô hình tuyến tính;A;2
+Mô hình nào tập trung vào việc giao hàng sớm các bản demo?;Agile;Waterfall;V-Model;Mô hình xoắn ốc;A;2
+"Quy trình ""Thiết kế"" trong SDLC bao gồm?";Thiết kế kiến trúc và thiết kế chi tiết;Viết code;Chạy test;Bàn giao;A;2
+Mục tiêu cuối cùng của mọi mô hình SDLC là gì?;Chất lượng phần mềm tốt;Tăng số lượng lập trình viên;Giảm giá thành;Dùng nhiều máy tính;A;2
+Trong mô hình V-Model, pha kiểm thử đơn vị tương ứng với?;Thiết kế chi tiết;Thiết kế hệ thống;Yêu cầu;Bảo trì;A;2
+"Mô hình ""Agile"" đề cao giá trị nào nhất?";Cá nhân và sự tương tác;Tài liệu đầy đủ;Hợp đồng chặt chẽ;Tuân thủ kế hoạch;A;2
+Trong SDLC, nếu bỏ qua bước kiểm thử sẽ dẫn đến?;Phần mềm nhiều lỗi và rủi ro cao;Phần mềm chạy nhanh hơn;Giảm chi phí;Dễ bảo trì;A;2
+Điểm khác biệt của mô hình xoắn ốc với các mô hình khác là?;Phân tích rủi ro trong từng vòng lặp;Không cần phân tích;Chỉ dùng cho dự án nhỏ;Không cần tài liệu;A;2
+Tài liệu SRS quan trọng nhất ở giai đoạn nào?;Phân tích yêu cầu;Lập trình;Bảo trì;Triển khai;A;2
+"Mô hình ""Incremental"" phù hợp khi?";Dự án được chia nhỏ thành các phần có thể chạy được;Yêu cầu thay đổi hàng giờ;Dự án quy mô cực nhỏ;Không có ngân sách;A;2
+"Trong SDLC, pha ""Triển khai"" (Deployment) là?";Đưa phần mềm vào môi trường thực tế;Viết code;Thiết kế;Họp;A;2
+Mô hình nào thường dùng cho các dự án nghiên cứu, R&D?;Spiral;Waterfall;V-Model;Tuyến tính;A;2
+Mục đích của việc chia nhỏ dự án thành các pha trong SDLC?;Để kiểm soát tiến độ và chất lượng;Để làm phức tạp vấn đề;Để tăng nhân sự;Để giảm yêu cầu;A;2
+Tại sao Agile phù hợp với các startup?;Vì khả năng thích nghi nhanh;Vì chi phí thấp;Vì không cần quy trình;Vì nhân sự ít;A;2
+"Mô hình ""Prototyping"" giúp khách hàng?";Hình dung rõ hơn về sản phẩm cuối cùng;Viết code giúp;Thay đổi quy mô;Kiểm tra phần cứng;A;2
+Trong Agile, vai trò của Scrum Master là?;Điều phối nhóm;Viết toàn bộ code;Thiết kế UI;Duyệt tài liệu;A;2
+Mô hình Waterfall còn có tên gọi khác là?;Mô hình tuyến tính;Mô hình xoắn;Mô hình linh hoạt;Mô hình lặp;A;2
+Trong SDLC, việc bàn giao phần mềm kết thúc khi nào?;Sau khi đã nghiệm thu và đưa vào sử dụng;Khi vừa viết xong code;Khi xong thiết kế;Khi xong phân tích;A;2
+Mô hình V-Model rất mạnh về?;Kiểm tra và kiểm chứng (Verification & Validation);Tốc độ;Tính rẻ;Tính dễ làm;A;2
+Sự khác biệt giữa RAD và Waterfall?;RAD tập trung vào tốc độ và công cụ;Waterfall tập trung vào tài liệu;Không có sự khác biệt;RAD chậm hơn;A;2
+Mô hình nào khó thực hiện thay đổi yêu cầu nhất?;Waterfall;Agile;Prototyping;Spiral;A;2
+"Trong SDLC, pha ""Phân tích"" giúp xác định?";Các vấn đề cần giải quyết;Mã nguồn;Giao diện;Phần cứng;A;2
+Dưới đây là 50 câu hỏi trắc nghiệm tập trung vào Chương 3: Phân tích yêu cầu và các kỹ thuật lấy yêu cầu. Bộ câu hỏi này được thiết kế để kiểm tra kiến thức về cách xác định, thu thập và quản lý yêu cầu trong dự án phần mềm.;;;;;;2
+Câu hỏi;Đáp án A;Đáp án B;Đáp án C;Đáp án D;Đáp án đúng;2
+Mục đích chính của kỹ thuật lấy yêu cầu là gì?;Xác định những gì người dùng thực sự cần;Viết mã nguồn;Thiết kế giao diện;Kiểm thử lỗi;A;3
+Kỹ thuật phỏng vấn (Interviewing) là?;Trao đổi trực tiếp để lấy thông tin từ người dùng;Viết tài liệu tự động;Dùng máy quét;Tải tài liệu từ internet;A;3
+Tại sao cần phân loại yêu cầu?;Để quản lý và ưu tiên thực hiện;Để làm đẹp tài liệu;Để tăng số lượng yêu cầu;Để giảm thời gian viết code;A;3
+Brainstorming trong phân tích yêu cầu nghĩa là gì?;Nhóm họp để tạo ra nhiều ý tưởng nhất có thể;Viết code cá nhân;Kiểm tra máy tính;Sửa tài liệu;A;3
+"Kỹ thuật ""Quan sát"" (Observation) giúp ích gì?";Hiểu quy trình thực tế mà người dùng thực hiện;Viết code nhanh;Thay đổi yêu cầu;Tăng ngân sách;A;3
+Yêu cầu người dùng (User Requirements) được mô tả bằng ngôn ngữ nào?;Ngôn ngữ tự nhiên (dễ hiểu);Mã máy;Ngôn ngữ assembly;Mã hex;A;3
+JAD (Joint Application Development) là gì?;Nhóm làm việc chung giữa khách hàng và kỹ sư;Viết code đơn lẻ;Kiểm thử độc lập;Bảo trì hệ thống;A;3
+"Khi nào một yêu cầu được gọi là ""khả thi""?";Nếu có thể thực hiện được trong giới hạn nguồn lực;Nếu khách hàng đòi hỏi;Nếu lập trình viên thích;Nếu phần cứng mạnh;A;3
+"Kỹ thuật ""Phân tích tài liệu"" (Document Analysis) là?";Nghiên cứu tài liệu cũ, quy trình cũ để rút ra yêu cầu;Viết tài liệu mới;Xóa tài liệu cũ;Chỉ đọc email;A;3
+Yêu cầu chức năng mô tả cái gì?;Các chức năng, nghiệp vụ hệ thống cung cấp;Màu sắc giao diện;Loại máy chủ;Độ sáng màn hình;A;3
+Yêu cầu phi chức năng (Non-functional) thường liên quan đến?;Chất lượng, hiệu năng, bảo mật;Cách đăng nhập;Nút bấm;Tên hàm;A;3
+"Thế nào là yêu cầu ""rõ ràng""?";Không gây hiểu lầm, chỉ có một cách hiểu;Viết dài;Dùng từ khó;Không quan trọng;A;3
+"Trong các kỹ thuật lấy yêu cầu, ""Workshop"" mang lại lợi ích gì?";Tạo sự đồng thuận giữa các bên liên quan;Viết code nhanh;Tăng dung lượng file;Giảm lương;A;3
+Yêu cầu nào dưới đây là yêu cầu phi chức năng?;Hệ thống phải phản hồi trong dưới 2 giây;Hệ thống có nút đăng ký;Hệ thống có báo cáo;Hệ thống có tìm kiếm;A;3
+Biểu đồ Use Case là công cụ hỗ trợ cho?;Phân tích yêu cầu;Viết mã nguồn;Thiết kế phần cứng;Kiểm tra mạng;A;3
+Kỹ thuật nào phù hợp nhất để làm rõ yêu cầu mơ hồ?;Tạo mẫu thử (Prototyping);Viết thêm email;Chờ đợi;Xóa yêu cầu;A;3
+Ai là người cung cấp thông tin cho việc lấy yêu cầu?;Stakeholders (Các bên liên quan);Lập trình viên;Nhân viên vệ sinh;Người sửa máy;A;3
+"Yêu cầu ""User Story"" thường có dạng?";Là một..., tôi muốn..., để...;Chỉ là một câu lệnh;Mã nguồn;Công thức toán;A;3
+Để tránh thiếu sót yêu cầu, kỹ sư nên?;Trao đổi thường xuyên với người dùng;Làm việc một mình;Đoán yêu cầu;Bỏ qua yêu cầu khó;A;3
+"Yêu cầu ""Ưu tiên"" giúp đội phát triển biết?";Việc gì cần làm trước;Việc gì không quan trọng;Việc gì khó nhất;Việc gì tốn tiền nhất;A;3
+Kỹ thuật nào dùng để phát hiện mâu thuẫn yêu cầu?;Review và kiểm tra chéo;Viết code;Tăng tốc độ máy;Xóa dự án;A;3
+"Yêu cầu ""Khả năng mở rộng"" thuộc loại?";Phi chức năng;Chức năng;Giao diện;Phần cứng;A;3
+Việc xác nhận yêu cầu (Validation) nhằm đảm bảo?;Yêu cầu đúng với ý muốn khách hàng;Yêu cầu dài nhất;Yêu cầu tốn tiền nhất;Yêu cầu khó nhất;A;3
+Requirement Traceability (Truy xuất yêu cầu) là gì?;Theo dõi vòng đời yêu cầu từ đầu đến cuối;Xóa yêu cầu;Viết code;Kiểm tra máy;A;3
+"Kỹ thuật ""Scenario"" (Kịch bản) giúp ích gì?";Mô tả ngữ cảnh sử dụng hệ thống;Viết code;Sửa lỗi;Tăng tốc độ;A;3
+"Thành phần chính trong bảng ""Glossary"" của dự án là?";Các thuật ngữ chuyên môn;Tên nhân viên;Mã code;Lỗi hệ thống;A;3
+"Sự khác biệt giữa ""Yêu cầu"" và ""Mong muốn"" là gì?";Yêu cầu là bắt buộc, mong muốn là ưu tiên thêm;Không khác nhau;Yêu cầu là tùy chọn;Mong muốn là bắt buộc;A;3
+Tại sao cần phân tích đối thủ cạnh tranh?;Để học hỏi và làm tốt hơn;Để sao chép;Để kiện;Để phá sản;A;3
+"Kỹ thuật ""Questionnaire"" (Bảng câu hỏi) dùng cho?";Thu thập thông tin từ số lượng lớn người dùng;Phỏng vấn 1 người;Viết code;Họp nhóm;A;3
+"Yêu cầu về ""Tính sẵn sàng"" (Availability) là yêu cầu?";Phi chức năng;Chức năng;Giao diện;Phần cứng;A;3
+Việc thay đổi yêu cầu sau khi chốt (Scope Creep) dẫn đến?;Trễ tiến độ và tăng chi phí;Giảm chi phí;Giảm lỗi;Tăng nhân sự;A;3
+Yêu cầu nào sau đây KHÔNG phải là chức năng?;Hệ thống chạy trên nền tảng Windows 11;Đăng nhập;Đăng xuất;Thanh toán;A;3
+Ai chịu trách nhiệm phê duyệt yêu cầu?;Khách hàng/Chủ đầu tư;Tester;Nhân viên mới;Người không liên quan;A;3
+Kỹ thuật thu thập yêu cầu nào tốn thời gian nhất?;Phỏng vấn chuyên sâu;Gửi email;Đọc báo cáo;Xem video;A;3
+"Mô hình ""Context Diagram"" (Biểu đồ ngữ cảnh) thể hiện?";Phạm vi của hệ thống và các thực thể bên ngoài;Cấu trúc code;Phần cứng;Giao diện;A;3
+"Yêu cầu cần phải ""Kiểm chứng được"" (Verifiable) có nghĩa là?";Có thể đo lường và xác nhận kết quả;Viết thật hay;Dùng từ khó;Không ai hiểu;A;3
+"Kỹ thuật ""Focus Group"" là?";Họp một nhóm nhỏ người dùng để thảo luận;Viết code;Kiểm thử;Họp cá nhân;A;3
+"Yêu cầu về ""Khả năng bảo mật"" là yêu cầu?";Phi chức năng;Chức năng;Tương tác;Thủ công;A;3
+Việc quản lý yêu cầu bao gồm?;Ghi nhận, cập nhật và theo dõi thay đổi;Viết code;Sửa lỗi;Họp;A;3
+Tại sao yêu cầu cần được viết tài liệu?;Để làm căn cứ triển khai và kiểm thử;Để trang trí;Để làm khó;Để tốn giấy;A;3
+Kỹ thuật lấy yêu cầu nào linh hoạt nhất?;Phỏng vấn;Bảng câu hỏi;Phân tích tài liệu;Quan sát;A;3
+"Yêu cầu ""Tính dễ sử dụng"" (Usability) là?";Phi chức năng;Chức năng;Cấu trúc;Phần cứng;A;3
+Trong quá trình lấy yêu cầu, kỹ sư nên?;Lắng nghe nhiều hơn nói;Nói nhiều hơn nghe;Tranh cãi;Bỏ về;A;3
+Mối quan hệ giữa phân tích yêu cầu và thiết kế?;Phân tích là đầu vào cho thiết kế;Thiết kế là đầu vào cho phân tích;Không liên quan;Thiết kế trước phân tích;A;3
+Yêu cầu không được phê duyệt sẽ dẫn đến?;Rủi ro phát triển sai hướng;Tiến độ nhanh;Tiết kiệm tiền;Lỗi hệ thống;A;3
+"Kỹ thuật ""Use Case"" tập trung vào?";Cách người dùng đạt được mục tiêu;Số lượng code;Tốc độ máy;Màu sắc;A;3
+Yêu cầu phi chức năng quan trọng vì?;Nó quyết định chất lượng và sự hài lòng;Nó làm tăng giá;Nó làm chậm code;Nó không cần thiết;A;3
+Tài liệu SRS nên được viết cho?;Tất cả các bên liên quan;Chỉ lập trình viên;Chỉ sếp;Chỉ khách hàng;A;3
+Khi có yêu cầu xung đột, kỹ sư nên?;Họp các bên để thương thảo;Chọn bên mạnh;Chọn bên yếu;Bỏ qua;A;3
+Kỹ thuật lấy yêu cầu phụ thuộc vào?;Quy mô dự án và đối tượng khách hàng;Giờ làm việc;Máy tính;Ngôn ngữ lập trình;A;3
+Biểu đồ lớp (Class Diagram) thể hiện mối quan hệ nào?;Cấu trúc tĩnh của hệ thống;Hành vi động theo thời gian;Trình tự xử lý dữ liệu;Sự phân bố vật lý;A;4
+"Trong UML, mối quan hệ ""Composition"" (Thành phần) có ý nghĩa gì?";Sở hữu chặt chẽ, đối tượng con không tồn tại nếu không có đối tượng cha;Sở hữu lỏng lẻo;Quan hệ kế thừa;Quan hệ phụ thuộc;A;4
+Mục đích chính của biểu đồ tuần tự (Sequence Diagram) là gì?;Mô tả luồng tương tác giữa các đối tượng theo thời gian;Mô tả cấu trúc lớp;Mô tả phần cứng;Mô tả cơ sở dữ liệu;A;4
+Biểu đồ trạng thái (Statechart Diagram) đặc biệt hữu ích cho?;Các đối tượng có trạng thái thay đổi phức tạp;Các đối tượng tĩnh;Các hàm toán học;Các hệ thống không có trạng thái;A;4
+"Trong nguyên lý SOLID, chữ ""D"" (Dependency Inversion) viết tắt cho?";Phụ thuộc vào trừu tượng thay vì chi tiết;Phụ thuộc vào chi tiết;Phụ thuộc vào lớp con;Phụ thuộc vào hàm main;A;4
+"Mẫu thiết kế (Design Pattern) ""Singleton"" dùng để?";Đảm bảo một lớp chỉ có một thể hiện duy nhất;Tạo nhiều đối tượng;Xóa đối tượng;Tăng tốc độ xử lý;A;4
+Biểu đồ thành phần (Component Diagram) tập trung vào?;Cấu trúc vật lý của hệ thống (file, thư viện);Cấu trúc logic;Hành vi người dùng;Tương tác mạng;A;4
+Độ ghép nối (Coupling) tốt nhất là?;Low (Thấp);High (Cao);Trung bình;Không giới hạn;A;4
+Độ gắn kết (Cohesion) tốt nhất là?;High (Cao);Low (Thấp);Trung bình;Không quan trọng;A;4
+"Trong biểu đồ lớp, ký hiệu ""-"" trước tên thuộc tính nghĩa là?";Private;Public;Protected;Internal;A;4
+"Trong biểu đồ lớp, ký hiệu ""+"" trước tên phương thức nghĩa là?";Public;Private;Protected;Internal;A;4
+Biểu đồ triển khai (Deployment Diagram) hiển thị?;Cách phần mềm ánh xạ lên hạ tầng phần cứng;Luồng dữ liệu;Cách người dùng đăng nhập;Các bước thực hiện dự án;A;4
+"Mẫu thiết kế ""Factory"" thuộc nhóm nào?";Creational (Khởi tạo);Structural (Cấu trúc);Behavioral (Hành vi);Không thuộc nhóm nào;A;4
+Biểu đồ hoạt động (Activity Diagram) tương đương với?;Lưu đồ thuật toán (Flowchart);Biểu đồ lớp;Biểu đồ tuần tự;Biểu đồ Use Case;A;4
+"Nguyên lý ""Open/Closed"" trong SOLID nghĩa là?";Mở rộng được nhưng không sửa đổi mã nguồn cũ;Không được mở rộng;Không được đóng gói;Chỉ được sửa mã cũ;A;4
+Biểu đồ gói (Package Diagram) dùng để?;Tổ chức các phần tử UML thành các nhóm logic;Thiết kế UI;Viết code;Kiểm thử;A;4
+Điểm giao nhau (Lifeline) trong biểu đồ tuần tự đại diện cho?;Sự hiện diện của đối tượng theo thời gian;Lỗi hệ thống;Kết nối mạng;Dung lượng RAM;A;4
+Biểu đồ cộng tác (Communication Diagram) tập trung vào?;Sự tổ chức giữa các đối tượng dựa trên thông điệp;Cấu trúc lớp;Luồng xử lý;Phần cứng;A;4
+"Trong thiết kế hệ thống, ""Interface"" (Giao diện) giúp?";Tách rời đặc tả và thực thi;Tăng lỗi;Giảm tính bảo mật;Viết code dài hơn;A;4
+"Mẫu thiết kế ""Observer"" thuộc nhóm nào?";Behavioral (Hành vi);Structural (Cấu trúc);Creational (Khởi tạo);Không thuộc nhóm nào;A;4
+"Biểu đồ lớp nào thể hiện mối quan hệ ""là một"" (is-a)?";Kế thừa (Generalization);Phụ thuộc (Dependency);Gộp nhóm (Aggregation);Liên kết (Association);A;4
+Biểu đồ triển khai thường sử dụng các nút (Nodes) để biểu diễn?;Máy chủ, máy trạm, thiết bị;Đối tượng phần mềm;Các lớp;Tác nhân;A;4
+"Nguyên lý ""Single Responsibility"" (SRP) yêu cầu?";Một lớp chỉ làm một nhiệm vụ duy nhất;Một lớp làm mọi việc;Một lớp không được có phương thức;Một lớp chỉ dùng cho 1 user;A;4
+Interface Segregation Principle (ISP) yêu cầu?;Chia nhỏ interface để client không phụ thuộc thừa;Gộp chung tất cả vào 1 interface;Không dùng interface;Xóa interface;A;4
+Lợi ích của việc dùng UML trong thiết kế hệ thống?;Chuẩn hóa ngôn ngữ giao tiếp kỹ thuật;Giảm số lượng code;Tăng giá phần mềm;Thay thế hoàn toàn kiểm thử;A;4
+"Biểu đồ tuần tự sử dụng ""Message"" để?";Mô tả sự tương tác/gọi hàm giữa các đối tượng;Vẽ hình;Lưu trữ;Xóa đối tượng;A;4
+Thiết kế hệ thống mức thấp (Low-level design) tập trung vào?;Chi tiết lớp, phương thức và logic cụ thể;Kiến trúc tổng thể;Yêu cầu khách hàng;Ngân sách;A;4
+"Mẫu thiết kế ""Strategy"" giúp?";Thay đổi thuật toán linh hoạt tại thời điểm chạy;Cố định thuật toán;Xóa thuật toán;Không dùng thuật toán;A;4
+"Biểu đồ trạng thái sử dụng ""Transition"" để?";Thể hiện sự chuyển đổi giữa các trạng thái;Xóa trạng thái;Vẽ hình;Lưu trữ;A;4
+"Biểu đồ hoạt động sử dụng ""Swimlane"" (Làn bơi) để?";Phân chia trách nhiệm giữa các tác nhân/bộ phận;Vẽ đẹp hơn;Tính tốc độ;Kiểm tra lỗi;A;4
+"Trong thiết kế hệ thống, ""Refactoring"" nhằm?";Cải thiện cấu trúc nội tại không thay đổi hành vi ngoài;Thay đổi tính năng;Sửa lỗi cứng;Tăng giá;A;4
+"Mẫu thiết kế ""Decorator"" giúp?";Thêm tính năng động cho đối tượng;Xóa đối tượng;Thay đổi lớp;Tăng lỗi;A;4
+Biểu đồ Use Case có thể chứa?;Các Use Case, Tác nhân và quan hệ;Mã nguồn;Thuật toán;Cơ sở dữ liệu;A;4
+Biểu đồ lớp có thể hiển thị?;Lớp, Thuộc tính, Phương thức, Quan hệ;Giao diện UI;Luồng mạng;Màu sắc;A;4
+"Biểu đồ tuần tự sử dụng ""Fragment"" (Alt, Loop) để?";Mô tả điều kiện và vòng lặp trong tương tác;Vẽ cho đẹp;Xóa tương tác;Tăng lỗi;A;4
+"Nguyên lý ""Liskov Substitution"" (LSP) yêu cầu?";Đối tượng lớp con phải thay thế được lớp cha;Không được kế thừa;Không được dùng lớp cha;Chỉ dùng interface;A;4
+Trong UML, quan hệ phụ thuộc (Dependency) ký hiệu bằng?;Mũi tên nét đứt;Nét liền;Hình thoi;Hình tròn;A;4
+Biểu đồ triển khai thể hiện?;Sự phụ thuộc giữa các thành phần phần cứng;Cấu trúc lớp;Thuật toán;Hành vi;A;4
+Design Pattern giúp giải quyết?;Vấn đề thiết kế thường gặp;Lỗi phần cứng;Giá bán;Nhân sự;A;4
+"Mẫu thiết kế ""Adapter"" giúp?";Chuyển đổi giao diện lớp này sang lớp khác;Xóa lớp;Viết lại toàn bộ code;Tăng dung lượng;A;4
+Biểu đồ hoạt động hỗ trợ thiết kế?;Quy trình nghiệp vụ phức tạp;Cơ sở dữ liệu;Giao diện;Phần cứng;A;4
+Biểu đồ lớp hỗ trợ thiết kế?;Cấu trúc dữ liệu và mô hình hóa đối tượng;Giao diện;Tốc độ;Mạng;A;4
+"Nguyên lý thiết kế hệ thống ""Don't Repeat Yourself"" (DRY) là?";Tránh lặp lại mã nguồn;Lặp lại mã;Viết code dài;Không quan tâm code;A;4
+Thiết kế hệ thống dựa trên thành phần (Component-based) ưu tiên?;Tái sử dụng các module có sẵn;Viết lại từ đầu;Chỉ dùng phần cứng;Chỉ dùng phần mềm;A;4
+"Trong thiết kế lớp, ""Abstract Class"" là?";Lớp chứa phương thức trừu tượng, không thể khởi tạo;Lớp bình thường;Lớp không có phương thức;Lớp cuối cùng;A;4
+Sự khác biệt giữa Aggregate và Composition là?;Composition mạnh hơn Aggregate;Aggregate mạnh hơn Composition;Không khác nhau;Composition là lớp con;A;4
+Biểu đồ UML nào là biểu đồ hành vi?;Biểu đồ tuần tự, hoạt động, trạng thái;Biểu đồ lớp;Biểu đồ thành phần;Biểu đồ gói;A;4
+Biểu đồ UML nào là biểu đồ cấu trúc?;Biểu đồ lớp, thành phần, triển khai;Biểu đồ hoạt động;Biểu đồ tuần tự;Biểu đồ trạng thái;A;4
+Thiết kế hướng đối tượng tốt cần?;Cohesion cao, Coupling thấp;Cohesion thấp, Coupling cao;Không cần quan tâm;Mã nguồn dài;A;4
+Khi thiết kế hệ thống, cần chú ý đến?;Tính mở rộng, bảo trì, hiệu năng;Màu sắc;Tên nhân viên;Số giờ làm việc;A;4
+Mục tiêu chính của kiểm thử phần mềm là gì?;Chứng minh phần mềm không có lỗi;Tìm lỗi để nâng cao chất lượng;Viết thêm tính năng;Tối ưu hóa phần cứng;B;5
+Kiểm thử hộp đen (Black-box) tập trung vào?;Giao diện và chức năng bên ngoài;Mã nguồn bên trong;Cấu trúc logic;Thiết kế lớp;A;5
+Kiểm thử hộp trắng (White-box) tập trung vào?;Cấu trúc logic và mã nguồn bên trong;Giao diện người dùng;Yêu cầu khách hàng;Màu sắc;A;5
+Đâu là mức kiểm thử nhỏ nhất?;Kiểm thử đơn vị (Unit Test);Kiểm thử tích hợp;Kiểm thử hệ thống;Kiểm thử chấp nhận;A;5
+Kiểm thử tích hợp dùng để kiểm tra?;Sự tương tác giữa các module;Từng hàm nhỏ;Giao diện UI;Độ bảo mật;A;5
+Kiểm thử hồi quy (Regression Testing) được thực hiện khi nào?;Sau khi sửa lỗi hoặc thay đổi code;Khi bắt đầu dự án;Khi bàn giao;Khi thiết kế;A;5
+UAT (User Acceptance Testing) được thực hiện bởi?;Người dùng cuối/Khách hàng;Lập trình viên;Tester nội bộ;Giám đốc dự án;A;5
+Sự khác biệt giữa Verification và Validation là?;Làm đúng sản phẩm và làm đúng yêu cầu người dùng;Không khác biệt;Là quy trình thiết kế;Là quy trình viết code;A;5
+Kiểm thử Alpha thường do ai thực hiện?;Đội ngũ nội bộ tại công ty;Khách hàng bên ngoài;Người dùng phổ thông;Đối thủ;A;5
+Kiểm thử Beta thường do ai thực hiện?;Người dùng thực tế ở môi trường thật;Lập trình viên;Tester;Giám đốc;A;5
+Báo cáo lỗi (Bug Report) cần chứa?;Các bước tái tạo lỗi;Tên nhân viên;Ngày tháng năm;Sở thích cá nhân;A;5
+Tầm quan trọng của Test Plan là?;Xác định chiến lược, tài nguyên, phạm vi kiểm thử;Viết cho đẹp;Không quan trọng;Để tốn thời gian;A;5
+Kiểm thử phi chức năng tập trung vào?;Hiệu năng, bảo mật, độ tin cậy;Các chức năng chính;Giao diện người dùng;Cấu trúc cơ sở dữ liệu;A;5
+Mô hình V-Model bắt đầu kiểm thử từ khi nào?;Ngay từ giai đoạn phân tích;Khi xong code;Khi xong dự án;Không kiểm thử;A;5
+Test Case là gì?;Tập hợp các điều kiện để kiểm tra chức năng;Mã nguồn;Giao diện;Tài liệu thiết kế;A;5
+Tại sao cần kiểm thử sớm (Early Testing)?;Để phát hiện và sửa lỗi sớm, giảm chi phí;Để tăng lương;Để làm đẹp hồ sơ;Để viết code nhanh;A;5
+Mục tiêu của kiểm thử hiệu năng là?;Đo lường thời gian phản hồi, khả năng chịu tải;Kiểm tra logic;Vẽ sơ đồ;Viết tài liệu;A;5
+Đâu là một kỹ thuật kiểm thử hộp đen?;Phân vùng tương đương (Equivalence Partitioning);Kiểm thử đường dẫn;Kiểm thử nhánh;Kiểm thử vòng lặp;A;5
+Kiểm thử giá trị biên (Boundary Value Analysis) nhằm?;Kiểm tra lỗi tại các giá trị biên của đầu vào;Tăng tốc;Giảm code;Xóa lỗi;A;5
+Kiểm thử đường dẫn (Path Testing) thuộc loại?;Hộp trắng;Hộp đen;UAT;Chấp nhận;A;5
+Độ phủ (Coverage) trong kiểm thử giúp?;Đo lường mức độ kiểm tra code;Tăng tốc;Giảm dung lượng;Tăng bảo mật;A;5
+Mục đích của việc kiểm thử bảo mật là?;Phát hiện lỗ hổng hệ thống;Viết code;Thiết kế UI;Vẽ sơ đồ;A;5
+Kiểm thử cấu hình (Configuration Testing) kiểm tra?;Khả năng chạy trên các phần cứng/phần mềm khác nhau;Giao diện;Logic;Tài liệu;A;5
+Kiểm thử khả năng sử dụng (Usability Testing) đánh giá?;Sự thuận tiện và dễ dùng cho người dùng;Độ bền;Giá;Mạng;A;5
+Kiểm thử phục hồi (Recovery Testing) kiểm tra?;Khả năng hệ thống khôi phục sau lỗi;Tốc độ;Giao diện;Màu sắc;A;5
+Kiểm thử tính tương thích (Compatibility Testing) kiểm tra?;Sự hoạt động trên các môi trường/trình duyệt khác nhau;Giá;Tốc độ;Màu sắc;A;5
+Kiểm thử cài đặt (Installation Testing) kiểm tra?;Quá trình cài đặt phần mềm;Logic;Tốc độ;Giao diện;A;5
+Kiểm thử ngẫu nhiên (Ad-hoc Testing) là?;Kiểm thử không theo kế hoạch/kịch bản;Theo kế hoạch;Theo kịch bản;Theo yêu cầu;A;5
+Kiểm thử luồng dữ liệu (Data Flow Testing) là?;Kiểm tra luồng đi của dữ liệu qua hệ thống;Kiểm tra UI;Kiểm tra giá;Kiểm tra mạng;A;5
+Quản lý chất lượng (QA) tập trung vào?;Quy trình phát triển;Viết code;Kiểm thử lỗi;Sửa lỗi;A;5
+Kiểm soát chất lượng (QC) tập trung vào?;Sản phẩm cuối cùng (phát hiện lỗi);Quy trình;Thiết kế;Họp;A;5
+Chỉ số lỗi (Defect Density) giúp?;Đánh giá mật độ lỗi trên mỗi đơn vị;Đếm số người;Đếm máy;Đếm giờ;A;5
+Công cụ quản lý lỗi (Bug Tracking Tool) ví dụ?;Jira;Notepad;Paint;Excel;A;5
+Kiểm thử dựa trên rủi ro (Risk-based testing) ưu tiên?;Các phần quan trọng, rủi ro cao;Các phần dễ;Phần không quan trọng;Phần mới;A;5
+Kiểm thử liên tục (Continuous Testing) thường thấy trong?;DevOps/CI/CD;Waterfall;V-Model;Spiral;A;5
+Mục đích của Unit Test Automation?;Tự động hóa kiểm thử hàm;Viết code;Họp;Thiết kế;A;5
+Kiểm thử hệ thống (System Testing) kiểm tra?;Toàn bộ hệ thống so với yêu cầu;Một hàm;Một module;Một giao diện;A;5
+Kiểm thử tích hợp từ trên xuống (Top-down) dùng?;Stub;Driver;Code;Script;A;5
+Kiểm thử tích hợp từ dưới lên (Bottom-up) dùng?;Driver;Stub;Code;Script;A;5
+Tại sao cần kiểm thử lại (Re-testing)?;Để kiểm tra lỗi đã được sửa;Để tạo lỗi mới;Để chơi;Để viết code;A;5
+Đâu là tiêu chí dừng kiểm thử?;Hết thời gian hoặc đạt độ phủ mục tiêu;Đã chán;Hết tiền;Lập trình viên muốn nghỉ;A;5
+Kiểm thử sự sẵn sàng (Availability Testing) là?;Đo thời gian hệ thống hoạt động ổn định;Kiểm tra màu;Kiểm tra giá;Kiểm tra mạng;A;5
+Kiểm thử căng thẳng (Stress Testing) giúp?;Xác định giới hạn tối đa của hệ thống;Viết code;Thiết kế;Họp;A;5
+Kiểm thử tính di động (Portability Testing) kiểm tra?;Khả năng chuyển đổi giữa các môi trường;Giao diện;Logic;Tốc độ;A;5
+Mục tiêu của kiểm thử giao diện (UI Testing) là?;Đảm bảo giao diện đúng thiết kế và dễ dùng;Tốc độ;Logic;Cấu trúc DB;A;5
+Sai lầm khi kiểm thử là?;Chỉ dùng 1 loại kiểm thử;Kiểm thử toàn diện;Kiểm thử sớm;Phối hợp các loại;A;5
+Kiểm thử tĩnh (Static Testing) là?;Kiểm tra code/tài liệu không thực thi;Kiểm tra thực thi;Kiểm tra mạng;Kiểm tra phần cứng;A;5
+Kiểm thử động (Dynamic Testing) là?;Kiểm tra code bằng cách thực thi;Kiểm tra tĩnh;Tài liệu;Họp;A;5
+Phát hiện lỗi ở giai đoạn nào là rẻ nhất?;Yêu cầu/Thiết kế;Lập trình;Kiểm thử;Bảo trì;A;5
+Đội ngũ kiểm thử tốt cần?;Khách quan và chú ý chi tiết;Chỉ cần nhanh;Chỉ cần giỏi code;Không cần làm gì;A;5
+Mục tiêu chính của quản trị dự án phần mềm là gì?;Đảm bảo dự án hoàn thành đúng hạn, chất lượng và ngân sách;Chỉ viết code thật nhanh;Chỉ quản lý nhân sự;Chỉ làm tài liệu;A;6
+Đâu là một yếu tố quan trọng trong quản trị dự án?;Lập kế hoạch, theo dõi và kiểm soát;Chỉ viết báo cáo;Chỉ chơi game;Chỉ đi họp;A;6
+Kỹ thuật WBS (Work Breakdown Structure) dùng để?;Chia nhỏ công việc dự án thành các phần quản lý được;Viết code;Kiểm tra lỗi;Thiết kế UI;A;6
+Mô hình ước lượng COCOMO tập trung vào?;Ước tính nỗ lực, thời gian và chi phí phát triển;Số lượng nhân sự;Tốc độ máy;Màu sắc;A;6
+Đâu là rủi ro phổ biến trong dự án phần mềm?;Thay đổi yêu cầu liên tục;Thiếu máy tính;Nhân viên quá giỏi;Thời tiết;A;6
+Mục đích của việc quản lý cấu hình (Configuration Management) là?;Kiểm soát các thay đổi đối với tài liệu và code;Viết báo cáo;Thay đổi yêu cầu;Tuyển nhân viên;A;6
+"Trong quản lý chi phí, ""chi phí trực tiếp"" bao gồm?";Lương lập trình viên, phí thiết bị;Tiền thuê văn phòng;Điện nước;Thuế;A;6
+Critical Path (Đường găng) trong sơ đồ tiến độ là?;Chuỗi công việc dài nhất quyết định thời gian dự án;Công việc ngắn nhất;Công việc dễ nhất;Công việc khó nhất;A;6
+Bảo trì phần mềm chiếm tỷ trọng như thế nào trong vòng đời dự án?;Thường là giai đoạn tốn kém và dài nhất;Rất ít;Không quan trọng;Chỉ diễn ra 1 ngày;A;6
+Đâu là loại bảo trì giúp sửa các lỗi phát sinh?;Bảo trì sửa lỗi (Corrective Maintenance);Bảo trì thích nghi;Bảo trì hoàn thiện;Bảo trì phòng ngừa;A;6
+"Bảo trì ""thích nghi"" (Adaptive) nhằm?";Cập nhật phần mềm khi môi trường thay đổi;Sửa lỗi;Thêm tính năng;Xóa code;A;6
+"Bảo trì ""hoàn thiện"" (Perfective) nhằm?";Thêm chức năng mới hoặc cải thiện hiệu năng;Sửa lỗi;Xóa code;Sửa giao diện;A;6
+"Bảo trì ""phòng ngừa"" (Preventive) nhằm?";Cải thiện cấu trúc để tránh lỗi trong tương lai;Sửa lỗi hiện tại;Thêm tính năng;Xóa code;A;6
+Sơ đồ Gantt (Gantt Chart) được dùng để?;Theo dõi tiến độ thời gian của các đầu việc;Viết code;Vẽ biểu đồ UML;Kiểm tra mạng;A;6
+Nợ kỹ thuật (Technical Debt) xảy ra khi?;Ưu tiên tốc độ thay vì chất lượng thiết kế;Nhân viên nghỉ;Sếp không đồng ý;Hết tiền;A;6
+"Trong quản trị dự án, ""milestone"" là?";Điểm mốc quan trọng kết thúc một giai đoạn;Viết code;Nghỉ ngơi;Họp;A;6
+Quản lý nhân sự trong dự án bao gồm?;Tuyển dụng, đào tạo và phân công công việc;Chỉ tuyển;Chỉ đào tạo;Chỉ sa thải;A;6
+Tại sao cần quản lý rủi ro?;Để nhận diện và giảm thiểu thiệt hại;Để tăng rủi ro;Để làm đẹp tài liệu;Không cần thiết;A;6
+Phương pháp nào hỗ trợ quản lý dự án linh hoạt?;Agile/Scrum;Waterfall;V-Model;Tuyến tính;A;6
+"Trong dự án phần mềm, ""ngân sách"" thường bị đội lên do?";Thay đổi phạm vi (Scope Creep);Viết code nhanh;Sử dụng máy tính cũ;Tuyển ít nhân sự;A;6
+Tài liệu hướng dẫn (Documentation) trong bảo trì giúp?;Hiểu hệ thống để sửa chữa và nâng cấp;Trang trí;Tốn giấy;Làm khó lập trình viên;A;6
+Reverse Engineering (Kỹ thuật đảo ngược) trong bảo trì là?;Phân tích mã nguồn để hiểu cấu trúc hệ thống;Viết code mới;Sửa lỗi;Vẽ biểu đồ;A;6
+Refactoring là kỹ thuật bảo trì nhằm?;Cải thiện mã nguồn mà không thay đổi hành vi;Thêm tính năng;Xóa code;Sửa lỗi;A;6
+Công cụ quản lý dự án phổ biến?;Jira, Trello;Notepad;Paint;Excel;A;6
+Đâu là chỉ số đo lường năng suất phần mềm?;Số dòng code hoặc số chức năng/giờ làm việc;Số người;Số máy;Số phòng;A;6
+Tại sao cần dự phòng thời gian (Buffer)?;Để xử lý công việc phát sinh bất ngờ;Để nghỉ ngơi;Để tăng phí;Để làm đẹp;A;6
+Quản lý phạm vi (Scope Management) giúp tránh?;Dự án bị lan man, không đúng mục tiêu;Quá tập trung;Làm quá nhanh;Tốn tiền;A;6
+Trong dự án, việc giao tiếp kém dẫn đến?;Rủi ro cao, hiểu sai yêu cầu;Dự án nhanh;Thành công;Tăng lương;A;6
+Chi phí bảo trì phần mềm phụ thuộc vào?;Độ phức tạp của code và tài liệu;Màu sắc;Tên nhân viên;Số lượng máy;A;6
+Vai trò của Project Manager (PM) là?;Điều phối, giám sát và chịu trách nhiệm dự án;Viết code;Kiểm tra lỗi;Thiết kế;A;6
+"Ước tính dự án theo phương pháp ""Expert Judgment"" là?";Dựa vào kinh nghiệm chuyên gia;Dựa vào máy;Dựa vào code;Dựa vào báo cáo;A;6
+"Phần mềm ""Legacy"" (di sản) thường khó bảo trì vì?";Code cũ, thiếu tài liệu, công nghệ lạc hậu;Mới quá;Đẹp quá;Nhanh quá;A;6
+Tại sao cần theo dõi tiến độ (Monitoring)?;Để so sánh với kế hoạch và điều chỉnh;Để làm đẹp báo cáo;Để tốn thời gian;Để họp;A;6
+Việc sa thải nhân sự đột ngột trong dự án dẫn đến?;Mất kiến thức và chậm tiến độ;Nhanh hơn;Tiết kiệm;Thành công;A;6
+Mô hình COCOMO có bao nhiêu cấp độ?;3 (Basic, Intermediate, Detailed);1;2;10;A;6
+Độ tin cậy của ước tính chi phí phụ thuộc vào?;Sự rõ ràng của yêu cầu;Máy tính;Nhân viên;Thời tiết;A;6
+Kiểm soát thay đổi (Change Control) giúp?;Quản lý yêu cầu thay đổi có kiểm soát;Không kiểm soát;Xóa mọi thay đổi;Họp;A;6
+Phần mềm có chất lượng cần?;Dễ bảo trì, dễ mở rộng, hiệu năng tốt;Code dài;Thiết kế đẹp;Không lỗi;A;6
+Chi phí bảo trì phần mềm thường chiếm bao nhiêu % tổng chi phí?;40% - 80%;5%;10%;100%;A;6
+Phần mềm bảo trì kém sẽ dẫn đến?;"Hệ thống bị ""chết"" dần";Nhanh hơn;Rẻ hơn;Đẹp hơn;A;6
+Tại sao cần họp nhóm dự án (Meeting)?;Để thống nhất mục tiêu và giải quyết vướng mắc;Để chơi;Để tiêu tiền;Để làm khó nhau;A;6
+Ước tính theo chức năng (Function Point) dựa trên?;Các đầu vào, đầu ra, truy vấn, file;Số dòng code;Số nhân viên;Số máy;A;6
+Mục đích của việc lưu trữ dự án (Archiving)?;Để sử dụng hoặc tham khảo trong tương lai;Để xóa;Để vứt đi;Để tốn bộ nhớ;A;6
+Khi nào dự án phần mềm được coi là thất bại?;Không hoàn thành mục tiêu, quá ngân sách, trễ hạn;Sửa lỗi;Thêm tính năng;Đẹp;A;6
+Lợi ích của việc đào tạo nhân sự?;Tăng năng suất và chất lượng sản phẩm;Tốn tiền;Tốn thời gian;Giảm chất lượng;A;6
+Tại sao cần phản hồi (Feedback) từ người dùng trong bảo trì?;Để biết hướng cải thiện;Không cần;Để sửa lỗi;Để làm đẹp;A;6
+Chi phí cho bảo trì tăng khi?;Code phức tạp và tài liệu nghèo nàn;Code dễ;Tài liệu tốt;Nhân viên giỏi;A;6
+Quản trị rủi ro dự án bao gồm các bước?;Nhận diện, phân tích, lập kế hoạch ứng phó;Không cần;Viết code;Thiết kế;A;6
+Phần mềm hiện đại đòi hỏi bảo trì?;Thường xuyên để đáp ứng thị trường;Không bao giờ;1 lần;Hết đời;A;6
+Đội ngũ dự án chuyên nghiệp cần?;Kỹ năng kỹ thuật và kỹ năng mềm tốt;Chỉ kỹ thuật;Chỉ kỹ năng mềm;Không cần gì;A;6

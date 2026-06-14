@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvItemContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nội dung câu hỏi"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#333333"/>
+
+        <TextView
+            android:id="@+id/tvItemAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đáp án: A"
+            android:layout_marginTop="4dp"
+            android:textColor="#C62828"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <ImageButton
+                android:id="@+id/btnEdit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_menu_edit"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="#1976D2"
+                android:contentDescription="Sửa"/>
+
+            <ImageButton
+                android:id="@+id/btnDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@android:drawable/ic_menu_delete"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                app:tint="#C62828"
+                android:contentDescription="Xóa"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
