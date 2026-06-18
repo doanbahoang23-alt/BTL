@@ -15,8 +15,8 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "HauiExam.db";
-    // Tăng version lên 23
-    private static final int DATABASE_VERSION = 23;
+    // --- SỬA Ở ĐÂY: Tăng version lên 24 để ép hệ thống gọi lại onCreate hoặc onUpgrade ---
+    private static final int DATABASE_VERSION = 24;
     private final Context context;
 
     // --- BẢNG USERS ---
@@ -97,188 +97,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         admin.put(COL_USER_PASSWORD, hashPassword("123"));
         admin.put(COL_USER_FULLNAME, "Người dùng HaUI");
         db.insert(TABLE_USERS, null, admin);
-
-        String[][] docs = {
-
-                {"Chương 1: Tổng quan về Kỹ nghệ Phần mềm (A-Z)",
-
-                        "1. KHÁI NIỆM VỀ PHẦN MỀM:\n" +
-
-                                "- Phần mềm máy tính không chỉ là code. Nó bao gồm: các chương trình máy tính, dữ liệu cấu hình để thực hiện đúng chức năng, và các tài liệu mô tả (System documentation, User documentation).\n" +
-
-                                "- Phần mềm có đặc tính: Được xây dựng (engineered), không phải sản xuất vật lý (manufactured). Nó không bị mòn đi nhưng sẽ thoái hóa theo thời gian do các thay đổi và cập nhật không đồng bộ.\n\n" +
-
-                                "2. ĐỊNH NGHĨA KỸ NGHỆ PHẦN MỀM (SE):\n" +
-
-                                "- SE là một kỷ luật kỹ thuật liên quan đến mọi khía cạnh của sản xuất phần mềm. Nó áp dụng các lý thuyết, phương pháp và công cụ để tạo ra phần mềm chất lượng, đáng tin cậy và kinh tế.\n\n" +
-
-                                "3. CÁC ĐẶC TRƯNG CỦA PHẦN MỀM CHẤT LƯỢNG CAO:\n" +
-
-                                "- Khả năng bảo trì: Có thể tiến hóa để đáp ứng nhu cầu thay đổi của khách hàng.\n" +
-
-                                "- Độ tin cậy và An toàn: Không gây ra thiệt hại về người và của khi có sự cố.\n" +
-
-                                "- Hiệu năng: Sử dụng tối ưu CPU, RAM, băng thông.\n" +
-
-                                "- Khả năng sử dụng: Giao diện phù hợp, dễ làm quen.\n\n" +
-
-                                "4. CÁC HUYỀN THOẠI VỀ PHẦN MỀM (Software Myths):\n" +
-
-                                "- Huyền thoại quản lý: 'Chúng ta có sách hướng dẫn rồi, thế là đủ'. Thực tế: Sách hướng dẫn thường lạc hậu và không áp dụng được ngay.\n" +
-
-                                "- Huyền thoại khách hàng: 'Yêu cầu thay đổi liên tục cũng không sao vì phần mềm rất linh hoạt'. Thực tế: Thay đổi muộn gây chi phí cực lớn.\n" +
-
-                                "- Huyền thoại lập trình viên: 'Xong code là xong việc'. Thực tế: 60-80% nỗ lực nằm ở giai đoạn sau khi bàn giao." +
-                                "- Link tham khảo: https://www.google.com/search?q=https://www.geeksforgeeks.org/software-engineering-software-development-life-cycle-sdlc/"},
-
-
-
-                {"Chương 2: Quy trình phát triển phần mềm - Tổng hợp mô hình",
-
-                        "1. CÁC HOẠT ĐỘNG KHUNG (Framework Activities):\n" +
-
-                                "- Giao tiếp (Communication): Phân tích khách hàng.\n" +
-
-                                "- Lập kế hoạch (Planning): Dự báo rủi ro, thời gian, kinh phí.\n" +
-
-                                "- Mô hình hóa (Modeling): Phân tích và thiết kế.\n" +
-
-                                "- Xây dựng (Construction): Viết mã và Unit Test.\n" +
-
-                                "- Triển khai (Deployment): Bàn giao và bảo trì.\n\n" +
-
-                                "2. CÁC MÔ HÌNH TIẾN TRÌNH:\n" +
-
-                                "- Mô hình Thác nước (Waterfall): Tuần tự, rõ ràng. Phù hợp dự án có yêu cầu không đổi.\n" +
-
-                                "- Mô hình chữ V: Nhấn mạnh việc kiểm thử song song với từng giai đoạn thiết kế.\n" +
-
-                                "- Mô hình Prototyping: Xây dựng bản mẫu nhanh để lấy phản hồi từ khách hàng.\n" +
-
-                                "- Mô hình Xoắn ốc (Spiral Model): Chia thành nhiều vòng lặp, mỗi vòng lặp chú trọng đánh giá rủi ro.\n\n" +
-
-                                "3. PHÁT TRIỂN LINH HOẠT (AGILE):\n" +
-
-                                "- Scrum: Sử dụng các Sprint (vòng lặp ngắn). Vai trò chính: Product Owner (người nắm giữ yêu cầu), Scrum Master (người hỗ trợ đội ngũ), Team (đội ngũ phát triển).\n" +
-
-                                "- XP (Extreme Programming): Lập trình cặp (Pair programming), Kiểm thử trước khi code (TDD)." +
-                                "" +
-                                "- Link tham khảo: https://www.google.com/search?q=https://www.geeksforgeeks.org/software-engineering-software-development-life-cycle-sdlc/"},
-
-
-
-                {"Chương 3: Phân tích yêu cầu - Kỹ thuật lấy yêu cầu",
-
-                        "1. PHÂN LOẠI YÊU CẦU:\n" +
-
-                                "- Yêu cầu chức năng: Hệ thống phải làm gì (Đăng nhập, tìm kiếm, xuất báo cáo).\n" +
-
-                                "- Yêu cầu phi chức năng: Hệ thống phải đạt tiêu chuẩn gì (Tải trang < 2 giây, hỗ trợ 5000 người dùng đồng thời, bảo mật SSL).\n\n" +
-
-                                "2. QUY TRÌNH KỸ NGHỆ YÊU CẦU:\n" +
-
-                                "- Khảo sát (Elicitation): Phỏng vấn, điều tra bằng bảng hỏi, quan sát hiện trường.\n" +
-
-                                "- Triển khai (Elaboration): Tạo ra các sơ đồ phân tích ban đầu.\n" +
-
-                                "- Thương thảo (Negotiation): Thống nhất ưu tiên các yêu cầu quan trọng trước.\n" +
-
-                                "- Đặc tả (Specification): Viết tài liệu SRS (Software Requirements Specification).\n" +
-
-                                "- Kiểm chứng (Validation): Đảm bảo các yêu cầu không mâu thuẫn lẫn nhau.\n\n" +
-
-                                "3. CÁC SAI LẦM THƯỜNG GẶP:\n" +
-
-                                "- Không hiểu rõ quy trình nghiệp vụ của khách hàng.\n" +
-
-                                "- Yêu cầu quá mơ hồ dẫn đến hiểu lầm giữa DEV và khách hàng." +
-                                "- Link tham khảo: https://www.tutorialspoint.com/software_engineering/software_requirements.htm"},
-
-
-
-                {"Chương 4: Thiết kế hệ thống & UML chuyên sâu",
-
-                        "1. THIẾT KẾ KIẾN TRÚC:\n" +
-
-                                "- Kiến trúc phân tầng (Layered): Presentation -> Business Logic -> Data Access.\n" +
-
-                                "- Kiến trúc Client-Server: Tận dụng sức mạnh xử lý của cả máy khách và máy chủ.\n" +
-
-                                "- Microservices: Chia nhỏ hệ thống thành các dịch vụ độc lập, dễ mở rộng.\n\n" +
-
-                                "2. MÔ HÌNH HÓA VỚI UML 2.0:\n" +
-
-                                "- Sơ đồ Use Case: Mô tả chức năng và các tác nhân (User, Admin, System).\n" +
-
-                                "- Sơ đồ Lớp (Class Diagram): Thể hiện cấu trúc các lớp và mối quan hệ (Inheritance, Association, Composition).\n" +
-
-                                "- Sơ đồ Trình tự (Sequence Diagram): Thể hiện sự tương tác giữa các đối tượng theo thời gian thực.\n" +
-
-                                "- Sơ đồ Hoạt động (Activity Diagram): Thể hiện luồng nghiệp vụ như một lưu đồ.\n\n" +
-
-                                "3. NGUYÊN TẮC THIẾT KẾ TỐT:\n" +
-
-                                "- Trừu tượng hóa, Tính module, Che giấu thông tin, Tinh lọc."},
-
-
-
-                {"Chương 5: Kiểm thử và Quản lý chất lượng",
-
-                        "1. CHIẾN LƯỢC KIỂM THỬ:\n" +
-
-                                "- Unit Test: Kiểm thử ở mức thấp nhất, do lập trình viên thực hiện.\n" +
-
-                                "- Integration Test: Kiểm tra sự kết nối giữa các module khác nhau.\n" +
-
-                                "- System Test: Kiểm tra toàn bộ phần mềm trên môi trường giống thật.\n" +
-
-                                "- Acceptance Test: Khách hàng kiểm tra để xác nhận thanh toán hợp đồng.\n\n" +
-
-                                "2. KỸ THUẬT KIỂM THỬ:\n" +
-
-                                "- Kiểm thử hộp đen (Black-box): Dựa trên đầu vào và đầu ra, không quan tâm code.\n" +
-
-                                "- Kiểm thử hộp trắng (White-box): Dựa trên luồng logic bên trong mã nguồn.\n\n" +
-
-                                "3. KIỂM THỬ HỒI QUY (Regression Testing):\n" +
-
-                                "- Thực hiện lại các bài test cũ sau khi cập nhật phần mềm để đảm bảo không có lỗi mới phát sinh ở những tính năng cũ." +
-                                "- Link tham khảo: https://www.guru99.com/software-testing.html"},
-
-
-
-                {"Chương 6: Quản trị dự án, Chi phí và Bảo trì",
-
-                        "1. QUẢN LÝ DỰ ÁN:\n" +
-
-                                "- Lập kế hoạch: Phân chia công việc (WBS), sơ đồ Gantt để theo dõi tiến độ.\n" +
-
-                                "- Quản lý rủi ro: Nhận diện rủi ro (nhân viên nghỉ việc, công nghệ thay đổi) và lập phương án dự phòng.\n\n" +
-
-                                "2. ƯỚC LƯỢNG CHI PHÍ:\n" +
-
-                                "- Mô hình COCOMO II: Ước lượng dựa trên kích thước phần mềm và các nhân số nỗ lực.\n" +
-
-                                "- Điểm chức năng (Function Point): Ước lượng dựa trên các thành phần chức năng (Inputs, Outputs, Inquiries, Files, Interfaces).\n\n" +
-
-                                "3. BẢO TRÌ PHẦN MỀM:\n" +
-
-                                "- Bảo trì sửa lỗi (Corrective).\n" +
-
-                                "- Bảo trì thích nghi (Adaptive): Thay đổi để chạy trên OS mới.\n" +
-
-                                "- Bảo trì hoàn thiện (Perfective): Thêm tính năng mới.\n" +
-
-                                "- Bảo trì phòng ngừa (Preventive): Viết lại code cho sạch sẽ, dễ hiểu hơn." +
-                                "- Link tham khảo: https://www.geeksforgeeks.org/software-engineering/software-engineering-software-project-management-spm/"}
-
-        };
-        for (String[] doc : docs) {
-            ContentValues v = new ContentValues();
-            v.put(COL_DOC_TITLE, doc[0]);
-            v.put(COL_DOC_CONTENT, doc[1]);
-            db.insert(TABLE_DOCUMENTS, null, v);
-        }
     }
 
     @Override
@@ -291,6 +109,65 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    public void importDocumentsFromCSV() {
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery("SELECT COUNT(*) FROM " + TABLE_DOCUMENTS, null);
+        if (cursor != null) {
+            cursor.moveToFirst();
+            int count = cursor.getInt(0);
+            cursor.close();
+            if (count > 0) return;
+        }
+
+        try {
+            InputStream is = context.getAssets().open("Documents.csv");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+            reader.readLine();
+
+            db.beginTransaction();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] d = line.split(";", 2);
+                if (d.length >= 2) {
+                    ContentValues v = new ContentValues();
+                    v.put(COL_DOC_TITLE, d[0].trim());
+                    v.put(COL_DOC_CONTENT, d[1].trim().replace("\\n", "\n"));
+                    db.insert(TABLE_DOCUMENTS, null, v);
+                }
+            }
+            db.setTransactionSuccessful();
+            reader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            db.endTransaction();
+        }
+    }
+
+    public void addDocument(String title, String content) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues v = new ContentValues();
+        v.put(COL_DOC_TITLE, title);
+        v.put(COL_DOC_CONTENT, content);
+        db.insert(TABLE_DOCUMENTS, null, v);
+    }
+
+    public List<String[]> searchDocuments(String keyword) {
+        List<String[]> list = new ArrayList<>();
+        SQLiteDatabase db = this.getReadableDatabase();
+        String query = "SELECT " + COL_DOC_TITLE + ", " + COL_DOC_CONTENT +
+                " FROM " + TABLE_DOCUMENTS +
+                " WHERE " + COL_DOC_TITLE + " LIKE ? OR " + COL_DOC_CONTENT + " LIKE ?";
+        Cursor c = db.rawQuery(query, new String[]{"%" + keyword + "%", "%" + keyword + "%"});
+
+        if (c.moveToFirst()) {
+            do {
+                list.add(new String[]{c.getString(0), c.getString(1)});
+            } while (c.moveToNext());
+        }
+        c.close();
+        return list;
+    }
 
     public void importQuestionsFromCSV() {
         SQLiteDatabase db = this.getWritableDatabase();

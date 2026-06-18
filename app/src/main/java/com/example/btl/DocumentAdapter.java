@@ -43,4 +43,9 @@ public class DocumentAdapter extends RecyclerView.Adapter<DocumentAdapter.DocVie
             tvContent = itemView.findViewById(R.id.tvDocContent);
         }
     }
+
+    public void updateData(List<String[]> newDocuments) {
+        this.documents = newDocuments;
+        notifyDataSetChanged();
+    }
 }

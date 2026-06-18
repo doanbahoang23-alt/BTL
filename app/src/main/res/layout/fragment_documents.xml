@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#F5F5F5">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDocs"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#C62828"
-        android:elevation="4dp">
+        android:elevation="4dp"
+        android:layout_alignParentTop="true">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -20,11 +21,37 @@
             android:textStyle="bold"/>
     </androidx.appcompat.widget.Toolbar>
 
+    <EditText
+        android:id="@+id/edtSearchDoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarDocs"
+        android:layout_margin="8dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Tìm kiếm tài liệu..."
+        android:padding="12dp"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:drawablePadding="8dp"
+        android:maxLines="1"
+        android:inputType="text"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvDocuments"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@id/edtSearchDoc"
         android:padding="8dp"
         android:clipToPadding="false"/>
 
-</LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddDoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="#C62828"
+        app:tint="#FFFFFF"/>
+
+</RelativeLayout>
