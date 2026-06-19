@@ -74,11 +74,13 @@ public class DocumentsFragment extends Fragment {
         List<String[]> docs = dbHelper.getAllDocuments();
         if (adapter == null) {
             adapter = new DocumentAdapter(docs);
-            rvDocuments.setLayoutManager(new LinearLayoutManager(getContext()));
-            rvDocuments.setAdapter(adapter);
+
         } else {
             adapter.updateData(docs);
         }
+
+        rvDocuments.setLayoutManager(new LinearLayoutManager(getContext()));
+        rvDocuments.setAdapter(adapter);
     }
 
     private void showAddDocumentDialog() {

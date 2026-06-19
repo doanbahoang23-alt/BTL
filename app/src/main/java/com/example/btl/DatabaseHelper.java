@@ -15,8 +15,9 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "HauiExam.db";
-    // --- SỬA Ở ĐÂY: Tăng version lên 24 để ép hệ thống gọi lại onCreate hoặc onUpgrade ---
-    private static final int DATABASE_VERSION = 24;
+
+    // --- SỬA Ở ĐÂY: Tăng version lên 25 để hệ thống cập nhật lại các bảng mới ---
+    private static final int DATABASE_VERSION = 25;
     private final Context context;
 
     // --- BẢNG USERS ---
@@ -48,6 +49,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String TABLE_EXAMS = "exams";
     public static final String TABLE_EXAM_QUESTIONS = "exam_questions";
 
+    // --- THÊM Ở ĐÂY: Khai báo tên bảng mới user_results ---
+    public static final String TABLE_USER_RESULTS = "user_results";
+
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
         this.context = context;
@@ -75,18 +79,25 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("CREATE TABLE " + TABLE_DOCUMENTS + " (" +
                 COL_DOC_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 COL_DOC_TITLE + " TEXT, " +
-                COL_DOC_CONTENT + " TEXT)");
+                COL_DOC_CONTENT + " TEXT, " +
+                "user_id INTEGER)");
 
-        // Bảng lưu thông tin đề thi
         db.execSQL("CREATE TABLE " + TABLE_EXAMS + " (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "title TEXT, " +
-                "created_at DATETIME DEFAULT CURRENT_TIMESTAMP)");
+                "created_at DATETIME DEFAULT CURRENT_TIMESTAMP, " +
+                "user_id INTEGER)");
 
-        // Bảng nối đề thi và câu hỏi
         db.execSQL("CREATE TABLE " + TABLE_EXAM_QUESTIONS + " (" +
                 "exam_id INTEGER, " +
                 "question_id INTEGER)");
+
+        db.execSQL("CREATE TABLE " + TABLE_USER_RESULTS + " (" +
+                "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                "user_id INTEGER, " +
+                "exam_id INTEGER, " +
+                "score REAL, " +
+                "completed_at DATETIME DEFAULT CURRENT_TIMESTAMP)");
 
         insertInitialData(db);
     }
@@ -106,6 +117,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_DOCUMENTS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_EXAMS);
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_EXAM_QUESTIONS);
+        // --- THÊM Ở ĐÂY: Xóa bảng user_results khi upgrade DB ---
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER_RESULTS);
         onCreate(db);
     }
 
