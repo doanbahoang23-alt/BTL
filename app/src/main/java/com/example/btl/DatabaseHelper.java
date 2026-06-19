@@ -16,7 +16,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "HauiExam.db";
 
-    // --- SỬA Ở ĐÂY: Tăng version lên 25 để hệ thống cập nhật lại các bảng mới ---
     private static final int DATABASE_VERSION = 25;
     private final Context context;
 
@@ -49,7 +48,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final String TABLE_EXAMS = "exams";
     public static final String TABLE_EXAM_QUESTIONS = "exam_questions";
 
-    // --- THÊM Ở ĐÂY: Khai báo tên bảng mới user_results ---
     public static final String TABLE_USER_RESULTS = "user_results";
 
     public DatabaseHelper(Context context) {
@@ -168,14 +166,14 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public List<String[]> searchDocuments(String keyword) {
         List<String[]> list = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
-        String query = "SELECT " + COL_DOC_TITLE + ", " + COL_DOC_CONTENT +
+        String query = "SELECT " + COL_DOC_ID + ", " + COL_DOC_TITLE + ", " + COL_DOC_CONTENT +
                 " FROM " + TABLE_DOCUMENTS +
                 " WHERE " + COL_DOC_TITLE + " LIKE ? OR " + COL_DOC_CONTENT + " LIKE ?";
         Cursor c = db.rawQuery(query, new String[]{"%" + keyword + "%", "%" + keyword + "%"});
 
         if (c.moveToFirst()) {
             do {
-                list.add(new String[]{c.getString(0), c.getString(1)});
+                list.add(new String[]{String.valueOf(c.getInt(0)), c.getString(1), c.getString(2)});
             } while (c.moveToNext());
         }
         c.close();
@@ -415,14 +413,27 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public List<String[]> getAllDocuments() {
         List<String[]> list = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT " + COL_DOC_TITLE + ", " + COL_DOC_CONTENT + " FROM " + TABLE_DOCUMENTS, null);
+        Cursor c = db.rawQuery("SELECT " + COL_DOC_ID + ", " + COL_DOC_TITLE + ", " + COL_DOC_CONTENT + " FROM " + TABLE_DOCUMENTS + " ORDER BY " + COL_DOC_ID + " DESC", null);
         if (c.moveToFirst()) {
             do {
-                list.add(new String[]{c.getString(0), c.getString(1)});
+                list.add(new String[]{String.valueOf(c.getInt(0)), c.getString(1), c.getString(2)});
             } while (c.moveToNext());
         }
         c.close();
         return list;
+    }
+
+    public void updateDocument(int id, String title, String content) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        ContentValues v = new ContentValues();
+        v.put(COL_DOC_TITLE, title);
+        v.put(COL_DOC_CONTENT, content);
+        db.update(TABLE_DOCUMENTS, v, COL_DOC_ID + "=?", new String[]{String.valueOf(id)});
+    }
+
+    public void deleteDocument(int id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete(TABLE_DOCUMENTS, COL_DOC_ID + "=?", new String[]{String.valueOf(id)});
     }
 
     public boolean checkUsernameExists(String username) {
@@ -432,4 +443,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         cursor.close();
         return exists;
     }
+
+
 }

@@ -73,14 +73,22 @@ public class DocumentsFragment extends Fragment {
     private void loadDocuments() {
         List<String[]> docs = dbHelper.getAllDocuments();
         if (adapter == null) {
-            adapter = new DocumentAdapter(docs);
+            adapter = new DocumentAdapter(docs, new DocumentAdapter.OnDocumentListener() {
+                @Override
+                public void onEdit(String[] doc) {
+                    showEditDocumentDialog(doc);
+                }
 
+                @Override
+                public void onDelete(String[] doc) {
+                    confirmDeleteDocument(doc);
+                }
+            });
+            rvDocuments.setLayoutManager(new LinearLayoutManager(getContext()));
+            rvDocuments.setAdapter(adapter);
         } else {
             adapter.updateData(docs);
         }
-
-        rvDocuments.setLayoutManager(new LinearLayoutManager(getContext()));
-        rvDocuments.setAdapter(adapter);
     }
 
     private void showAddDocumentDialog() {
@@ -126,5 +134,55 @@ public class DocumentsFragment extends Fragment {
         });
 
         builder.show();
+    }
+
+    private void showEditDocumentDialog(String[] doc) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+        builder.setTitle("Sửa tài liệu");
+
+        LinearLayout layout = new LinearLayout(getContext());
+        layout.setOrientation(LinearLayout.VERTICAL);
+        layout.setPadding(32, 16, 32, 16);
+
+        final EditText inputTitle = new EditText(getContext());
+        inputTitle.setText(doc[1]); // Hiển thị sẵn title cũ
+        layout.addView(inputTitle);
+
+        final EditText inputContent = new EditText(getContext());
+        inputContent.setText(doc[2]); // Hiển thị sẵn nội dung cũ
+        inputContent.setMinLines(3);
+        layout.addView(inputContent);
+
+        builder.setView(layout);
+        builder.setPositiveButton("Cập nhật", (dialog, which) -> {
+            String title = inputTitle.getText().toString().trim();
+            String content = inputContent.getText().toString().trim();
+
+            if (!title.isEmpty() && !content.isEmpty()) {
+                int docId = Integer.parseInt(doc[0]); // Trích xuất ID
+                dbHelper.updateDocument(docId, title, content);
+                Toast.makeText(getContext(), "Cập nhật thành công!", Toast.LENGTH_SHORT).show();
+                loadDocuments();
+                edtSearchDoc.setText("");
+            } else {
+                Toast.makeText(getContext(), "Vui lòng nhập đầy đủ", Toast.LENGTH_SHORT).show();
+            }
+        });
+        builder.setNegativeButton("Hủy", null);
+        builder.show();
+    }
+
+    private void confirmDeleteDocument(String[] doc) {
+        new AlertDialog.Builder(getContext())
+                .setTitle("Xác nhận xóa")
+                .setMessage("Bạn có chắc chắn muốn xóa tài liệu này?")
+                .setPositiveButton("Xóa", (dialog, which) -> {
+                    int docId = Integer.parseInt(doc[0]);
+                    dbHelper.deleteDocument(docId);
+                    Toast.makeText(getContext(), "Đã xóa tài liệu", Toast.LENGTH_SHORT).show();
+                    loadDocuments();
+                })
+                .setNegativeButton("Hủy", null)
+                .show();
     }
 }
