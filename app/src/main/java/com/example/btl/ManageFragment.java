@@ -41,9 +41,21 @@ public class ManageFragment extends Fragment implements QuestionAdapter.OnQuesti
     }
 
     private void refreshData() {
-        questionList = dbHelper.getAllQuestions();
-        adapter = new QuestionAdapter(questionList, this);
-        rvQuestions.setAdapter(adapter);
+        List<Question> newData = dbHelper.getAllQuestions();
+
+        if (questionList != null) {
+            questionList.clear();
+            questionList.addAll(newData);
+        } else {
+            questionList = newData;
+        }
+
+        if (adapter == null) {
+            adapter = new QuestionAdapter(questionList, this);
+            rvQuestions.setAdapter(adapter);
+        } else {
+            adapter.notifyDataSetChanged();
+        }
     }
 
     private void showAddEditDialog(Question existingQuestion) {
